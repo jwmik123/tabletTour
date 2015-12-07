@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tablet Tour : PRO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+  <div class="wrapper">
+
+
+    <center><div class="navigation">
+      <ul>
+        <li><button id="home_button" href="">Home</button></li>
+        <li><button id="tour_button" href="">Tour</button></li>
+        <li><button id="images_button" href="">Images</button></li>
+        <li><button id="contact_button" href="">Contact</button></li>
+      </ul>
+    </div></center>
+
+  <div id="home">
+    <div class="home_image">
+      <img src="images/Van_Gogh_Museum.jpg" alt="van-gogh">
+    </div>
+
+    <h1>Van Gogh Museum</h1>
+
+
+
+    <div id="intro-text">
+      <p>Donec efficitur nulla id hendrerit pharetra. Phasellus
+        vehicula ante auctor lacus porta imperdiet. Donec nisl ligula,
+        aliquet ut tempor ac, imperdiet ac tellus. Integer et lorem mole
+        stie, facilisis sem nec, fringilla libero. Aliquam sed lorem sit amet
+        massa rhoncus varius et at tellus. Aenean non orci auctor dui tincidunt ultricies.
+        Vivamus ut quam lacus. Phasellus consectetur tortor sit amet dignissim semper.</p>
+        <p>Donec efficitur nulla id hendrerit pharetra. Phasellus
+          vehicula ante auctor lacus porta imperdiet. Donec nisl ligula,
+          aliquet ut tempor ac, imperdiet ac tellus. Integer et lorem mole
+          stie, facilisis sem nec, fringilla libero. Aliquam sed lorem sit amet
+          massa rhoncus varius et at tellus. Aenean non orci auctor dui tincidunt ultricies.
+          Vivamus ut quam lacus. Phasellus consectetur tortor sit amet dignissim semper.</p>
+          <p>Donec efficitur nulla id hendrerit pharetra. Phasellus
+            vehicula ante auctor lacus porta imperdiet. Donec nisl ligula,
+            aliquet ut tempor ac, imperdiet ac tellus. Integer et lorem mole
+            stie, facilisis sem nec, fringilla libero. Aliquam sed lorem sit amet
+            massa rhoncus varius et at tellus. Aenean non orci auctor dui tincidunt ultricies.
+            Vivamus ut quam lacus. Phasellus consectetur tortor sit amet dignissim semper.</p>
+    </div>
+    </div>
+
+
+    <div class="disabled" id="tour">
+      <h1 id="scan-title">Scan de QR-code</h1>
+
+
+
+      <div class="scanner">
+
+
+        <div id="reader-container">
+        <center><div id="reader" style="width:300px;height:250px"></div></center>
+        </div>
+        <div id="img"></div>
+        <div id="title"></div>
+        <div id="text"></div>
+</div>
+
+      <div id="refresh" class="disabled">
+        <a href="#">Terug naar scanner</a>
+      </div>
+    </div>
+    <div class="disabled" id="contact">
+      <h1>Contact</h1>
+
+
+      <div class="contact-info">
+        <h3>heb je vragen of opmerkingen over het museum of over de website?
+        Stuur een brief, mail, tweet of bel ons.</h3>
+        <h3>Contactgegevens</h3>
+        <p>Voor algemene informatie over het museum, de collectie,
+        ons programma en onze activiteiten:</p>
+        <p>T (020) 570 52 00</p>
+        <p>E <a href="#">info@vangoghmuseum.nl</a></p>
+        <h3>Bezoekadres</h3>
+        <p>Museumplein 6</p>
+        <p>1071 DJ Amsterdam</p>
+        <h3>Postadres</h3>
+        <p>Van Gogh Museum</p>
+        <p>Postbus 75366</p>
+        <p>1070 AJ Amsterdam</p>
+      </div>
+
+    </div>
+
+    <div class="disabled" id="images">
+      <h3>Aardappeleters</h3>
+      <img src="images/aardappeleters.jpg" alt="aardappeleters">
+      <h3>Amandelbloesem</h3>
+      <img src="images/amandelbloesem.jpg" alt="amandelbloesem">
+      <h3>Tuin met geliefden</h3>
+      <img src="images/tuinMetgeliefden.jpg" alt="tuinMetgeliefden">
+      <h3>Zonnebloemen</h3>
+      <img src="images/zonnebloemen.jpg" alt="zonnebloemen">
+
+    </div>
+  </div>
+
+    <footer>
+      <p>Mike Rhodens | Quenten Brouwer | Jo&euml;l Mik</p>
+    </footer>
+
+    <script src="qr_scan_code/html5-qrcode.js"></script>
+    <script src="qr_scan_code/jsqrcode-combined.min.js"></script>
+    <script src="qr_scan_code/script.js"></script>
+  </body>
+</html>

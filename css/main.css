@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 550px;
+  font-family: "Roboto", sans-serif; }
+  html .wrapper, body .wrapper {
+    background-color: #fecc00;
+    margin: auto auto; }
+    html .wrapper .navigation, body .wrapper .navigation {
+      margin-left: -72px; }
+      html .wrapper .navigation ul, body .wrapper .navigation ul {
+        margin: 0; }
+        html .wrapper .navigation ul li, body .wrapper .navigation ul li {
+          list-style-type: none;
+          display: inline; }
+          html .wrapper .navigation ul li button, body .wrapper .navigation ul li button {
+            width: 160px;
+            margin-right: -15px;
+            margin-left: -10px;
+            border: none;
+            padding: 20px;
+            background-color: black;
+            color: white; }
+    html .wrapper #tour .scanner, body .wrapper #tour .scanner {
+      margin: 0 auto; }
+      html .wrapper #tour .scanner #img img, body .wrapper #tour .scanner #img img {
+        width: 550px;
+        height: 350px;
+        padding-bottom: 15px; }
+      html .wrapper #tour .scanner #title, body .wrapper #tour .scanner #title {
+        font-weight: 700;
+        padding-left: 10px; }
+      html .wrapper #tour .scanner #text, body .wrapper #tour .scanner #text {
+        margin-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px; }
+    html .wrapper #home, body .wrapper #home {
+      margin-bottom: 0; }
+      html .wrapper #home img, body .wrapper #home img {
+        width: 550px;
+        height: 300px; }
+      html .wrapper #home p, body .wrapper #home p {
+        margin-bottom: 0;
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px; }
+    html .wrapper h1, body .wrapper h1 {
+      text-align: center; }
+    html .wrapper h3, body .wrapper h3 {
+      color: #007c92; }
+    html .wrapper #images img, body .wrapper #images img {
+      width: 550px;
+      height: 350px;
+      margin-bottom: 0; }
+    html .wrapper #images h3, body .wrapper #images h3 {
+      padding-left: 10px; }
+    html .wrapper #contact, body .wrapper #contact {
+      padding-left: 10px;
+      margin-bottom: -40px; }
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 1px;
+  text-align: center; }
+
+.disabled {
+  display: none; }
